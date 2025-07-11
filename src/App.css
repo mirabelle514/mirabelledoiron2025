@@ -1,5 +1,8 @@
+/* Professional Resume App Styles */
 .App {
   text-align: center;
+  background-color: #193441;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -14,25 +17,89 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #193441;
+  padding: 20px;
+  color: #ffffff;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #991818;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Ensure proper spacing for fixed navigation */
+main {
+  padding-top: 0;
+}
+
+.text-gradient-portfolio {
+  background: linear-gradient(135deg, #b9d6e2 0%, #8ba9b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.portfolio-card {
+  background: #193441;
+  border: 1px solid #b9d6e2;
+  transition: all 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-button {
+  background: #b9d6e2;
+  border: none;
+  color: #193441;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.portfolio-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(185, 214, 226, 0.3);
+}
+
+.portfolio-button-outline {
+  background: transparent;
+  border: 2px solid #b9d6e2;
+  color: #b9d6e2;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.portfolio-button-outline:hover {
+  background: #b9d6e2;
+  color: #193441;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Portfolio-style loading animation */
+@keyframes portfolio-pulse {
+  0%, 100% {
+    opacity: 1;
   }
+  50% {
+    opacity: .5;
+  }
+}
+
+.portfolio-pulse {
+  animation: portfolio-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }

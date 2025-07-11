@@ -1,46 +1,103 @@
-# Getting Started with Create React App
+# Mirabelle Doiron - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS showcasing my experience as a Frontend Engineer, Mobile Developer, and AI enthusiast.
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This portfolio highlights my professional journey from email development to full-stack engineering, featuring projects in React, TypeScript, iOS development, and AI integration. The site demonstrates my expertise in creating intuitive user experiences and scalable applications.
 
-### `npm start`
+## Core Engineering Skills
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### **Frontend Engineering**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React Ecosystem**: React 19, TypeScript, Vite, Tailwind CSS
+- **State Management**: Component state, props, context API
+- **Performance Optimization**: Code splitting, lazy loading, bundle optimization
+- **Responsive Design**: Mobile-first approach, CSS Grid, Flexbox
+- **Accessibility**: WCAG compliance, semantic HTML, ARIA attributes
 
-### `npm test`
+### **Mobile Development**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **iOS Native**: Swift, SwiftUI, Core Data, Metal framework
+- **Cross-Platform**: React Native, mobile UX/UI patterns
+- **App Store Deployment**: App Store Connect, provisioning profiles
+- **Performance**: Memory management, battery optimization
 
-### `npm run build`
+### **AI/ML Integration**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **API Integration**: Claude API, OpenAI, custom AI endpoints
+- **Data Modeling**: Database design, schema optimization, data flow architecture
+- **Analytics**: User behavior tracking, A/B testing, performance metrics
+- **Machine Learning**: Recommendation algorithms, predictive modeling
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **DevOps & Tooling**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Version Control**: Git, GitLab, CI/CD pipelines
+- **Build Systems**: Vite, Webpack, bundling optimization
+- **Testing**: Unit testing, integration testing, E2E testing
+- **Documentation**: Technical writing, API documentation, README maintenance
 
-### `npm run eject`
+## Technical Architecture
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Component Architecture**: Modular, reusable React components
+- **Type Safety**: Full TypeScript implementation with strict typing
+- **Performance**: Optimized rendering, minimal bundle size
+- **SEO**: Meta tags, semantic HTML, structured data
+- **Security**: HTTPS, secure headers, input validation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Projects Featured
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. **Developer Experience Engineering** - Modular onboarding platform for development teams
+2. **AI-Powered Home Design Assistant** - Intelligent recommendation system for DIY projects
+3. **Freelancer Business Platform** - Comprehensive management tool with time tracking and invoicing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Node.js (version 16 or higher)
+- npm or yarn package manager
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mirabelle514/portfolio.git
+   cd portfolio
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view the portfolio in your browser.
+
+### Available Scripts
+
+- `npm start` - Runs the app in development mode
+- `npm run build` - Builds the app for production
+- `npm test` - Launches the test runner
+- `npm run eject` - Ejects from Create React App (one-way operation)
+
+## Deployment
+
+Run `npm run build` to create a production build in the `build` folder.
+
+## Contact
+
+- **Email**: mirabelle...@gmail.com
+- **LinkedIn**: [Mirabelle Linkedin](https://www.linkedin.com/in/mirabelle-doiron-84955a28/)
+- **GitHub**: [mirabelle514](https://github.com/mirabelle514)
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
